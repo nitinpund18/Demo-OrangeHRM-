@@ -1,0 +1,297 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 11 14:27:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>532 seconds (532232 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC8.verfifyPendingApprovalChkboxStstus()'><b>verfifyPendingApprovalChkboxStstus</b><br>Test class: com.orangehrmlive.tc.TC8</td>
+<td></td>
+<td>2</td>
+<td>com.orangehrmlive.tc.TC8@1f9e9475</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC3.popupClose()'><b>popupClose</b><br>Test class: com.orangehrmlive.tc.TC3</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC3@7dfd3c81</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC16.verifyInfoUpdateStatusMessage()'><b>verifyInfoUpdateStatusMessage</b><br>Test class: com.orangehrmlive.tc.TC16</td>
+<td></td>
+<td>12</td>
+<td>com.orangehrmlive.tc.TC16@d2de489</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC10.ValidateNavigationToGoalPage()'><b>ValidateNavigationToGoalPage</b><br>Test class: com.orangehrmlive.tc.TC10</td>
+<td></td>
+<td>34</td>
+<td>com.orangehrmlive.tc.TC10@46d59067</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyInProgressCountOfTableHeader()'><b>verifyInProgressCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>4</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyShortlistedCountOfTableHeader()'><b>verifyShortlistedCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC1.verifyLoginPanel()'><b>verifyLoginPanel</b><br>Test class: com.orangehrmlive.tc.TC1</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC1@6f15d60e</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC1.verifylogo()'><b>verifylogo</b><br>Test class: com.orangehrmlive.tc.TC1</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC1@6f15d60e</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC9.VerifyDefaultNavigationToLeaveList()'><b>VerifyDefaultNavigationToLeaveList</b><br>Test class: com.orangehrmlive.tc.TC9</td>
+<td></td>
+<td>60</td>
+<td>com.orangehrmlive.tc.TC9@d23e042</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyRejectedCountOfTableHeader()'><b>verifyRejectedCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>2</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC15.verifyTableRowCount()'><b>verifyTableRowCount</b><br>Test class: com.orangehrmlive.tc.TC15</td>
+<td></td>
+<td>25</td>
+<td>com.orangehrmlive.tc.TC15@2f953efd</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC3.verifyUserProfileOptions()'><b>verifyUserProfileOptions</b><br>Test class: com.orangehrmlive.tc.TC3<br/>
+<a href="#Output-83532470" onClick='toggleBox("Output-83532470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-83532470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-83532470">
+Change Password<br/>
+About<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC3@7dfd3c81</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC11.VerifyshortcutItemCount()'><b>VerifyshortcutItemCount</b><br>Test class: com.orangehrmlive.tc.TC11</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC11@14dd7b39</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC4.verifyUserPersonalInfo()'><b>verifyUserPersonalInfo</b><br>Test class: com.orangehrmlive.tc.TC4</td>
+<td></td>
+<td>18</td>
+<td>com.orangehrmlive.tc.TC4@7bbc8656</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC12.moveQuickAccessWidget()'><b>moveQuickAccessWidget</b><br>Test class: com.orangehrmlive.tc.TC12</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC12@6cd24612</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC2.verifyWidget()'><b>verifyWidget</b><br>Test class: com.orangehrmlive.tc.TC2<br/>
+<a href="#Output-788592721" onClick='toggleBox("Output-788592721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-788592721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-788592721">
+Quick Access<br/>
+Buzz Latest Posts<br/>
+My Actions<br/>
+Latest Documents<br/>
+Latest News<br/>
+Employees on Leave Today<br/>
+Time At Work<br/>
+Headcount by Location<br/>
+COVID-19 Report<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC2@7fb4f2a9</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC13.verifyAllCandidateCount()'><b>verifyAllCandidateCount</b><br>Test class: com.orangehrmlive.tc.TC13</td>
+<td></td>
+<td>17</td>
+<td>com.orangehrmlive.tc.TC13@5dafbe45</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC7.verifyChangedOrganisationName()'><b>verifyChangedOrganisationName</b><br>Test class: com.orangehrmlive.tc.TC7</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC7@626abbd0</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC8.verfifyLeavesInTable()'><b>verfifyLeavesInTable</b><br>Test class: com.orangehrmlive.tc.TC8</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC8@1f9e9475</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC10.validateNavigationFromHomeBtn()'><b>validateNavigationFromHomeBtn</b><br>Test class: com.orangehrmlive.tc.TC10</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC10@46d59067</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyApplicationsReceivedCountOfTableHeader()'><b>verifyApplicationsReceivedCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>3</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC6.VerifyUserAddNewSkill()'><b>VerifyUserAddNewSkill</b><br>Test class: com.orangehrmlive.tc.TC6</td>
+<td></td>
+<td>23</td>
+<td>com.orangehrmlive.tc.TC6@7dfb0c0f</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC1.login()'><b>login</b><br>Test class: com.orangehrmlive.tc.TC1</td>
+<td></td>
+<td>7</td>
+<td>com.orangehrmlive.tc.TC1@6f15d60e</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC16.verifyUpdatedmiddleName()'><b>verifyUpdatedmiddleName</b><br>Test class: com.orangehrmlive.tc.TC16</td>
+<td></td>
+<td>7</td>
+<td>com.orangehrmlive.tc.TC16@d2de489</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC7.setNewNameofOrganization()'><b>setNewNameofOrganization</b><br>Test class: com.orangehrmlive.tc.TC7</td>
+<td></td>
+<td>8</td>
+<td>com.orangehrmlive.tc.TC7@626abbd0</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyJobOfferCountOfTableHeader()'><b>verifyJobOfferCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC8.verifyDatesTextBox()'><b>verifyDatesTextBox</b><br>Test class: com.orangehrmlive.tc.TC8</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC8@1f9e9475</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC5.verifyTotalRecordInTable()'><b>verifyTotalRecordInTable</b><br>Test class: com.orangehrmlive.tc.TC5</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC5@7d3e8655</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC3.verifyCompanyDetails()'><b>verifyCompanyDetails</b><br>Test class: com.orangehrmlive.tc.TC3</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC3@7dfd3c81</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC3.verifyEmployeeCount()'><b>verifyEmployeeCount</b><br>Test class: com.orangehrmlive.tc.TC3</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.tc.TC3@7dfd3c81</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyHiredCountOfTableHeader()'><b>verifyHiredCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>2</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC3.verifyProfileDisplay()'><b>verifyProfileDisplay</b><br>Test class: com.orangehrmlive.tc.TC3</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC3@7dfd3c81</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC8.VerifyDefaultNavigationToLeaveList()'><b>VerifyDefaultNavigationToLeaveList</b><br>Test class: com.orangehrmlive.tc.TC8</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC8@1f9e9475</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC14.verifyAllcandidateCountOfTableHeader()'><b>verifyAllcandidateCountOfTableHeader</b><br>Test class: com.orangehrmlive.tc.TC14</td>
+<td></td>
+<td>20</td>
+<td>com.orangehrmlive.tc.TC14@2254127a</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC1.verifyEmpMgt()'><b>verifyEmpMgt</b><br>Test class: com.orangehrmlive.tc.TC1</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC1@6f15d60e</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC1.HomepageNavigation()'><b>HomepageNavigation</b><br>Test class: com.orangehrmlive.tc.TC1</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC1@6f15d60e</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC5.verifyDefaultPerPageRecord()'><b>verifyDefaultPerPageRecord</b><br>Test class: com.orangehrmlive.tc.TC5</td>
+<td></td>
+<td>7</td>
+<td>com.orangehrmlive.tc.TC5@7d3e8655</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC4.verifyPayableCTC()'><b>verifyPayableCTC</b><br>Test class: com.orangehrmlive.tc.TC4</td>
+<td></td>
+<td>4</td>
+<td>com.orangehrmlive.tc.TC4@7bbc8656</td></tr>
+<tr>
+<td title='com.orangehrmlive.tc.TC7.verifyNumberofEmpField()'><b>verifyNumberofEmpField</b><br>Test class: com.orangehrmlive.tc.TC7</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrmlive.tc.TC7@626abbd0</td></tr>
+</table><p>
+</body>
+</html>
